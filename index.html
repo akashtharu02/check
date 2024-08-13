@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Canvas for falling words background effect -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">My Portfolio</div>
+        <div id="mobile-menu" class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <section id="home">
+        <div class="content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Showcasing my work and skills.</p>
+            <a href="#projects" class="cta">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Akash Tharu, an IT student currently pursuing my studies at Crimson College of Technology,
+                located in Butwal, Lumbini Province, Nepal. With a strong foundation in HTML, CSS, JavaScript, Node.js,
+                and Python, I am passionate about technology and programmingHello! I'm Akash Tharu, an IT student currently
+                pursuing my studies at Crimson College of Technology, located in Butwal, Lumbini Province, Nepal. With a strong foundation
+                in HTML, CSS, JavaScript, Node.js, and Python, I am passionate about technology and programming.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>My Portfolio</h3>
+                <p>Hii, This is my portfolio if you want to learn about me you an visit here .</p>
+                <a href="https://akashtharu123.github.io/portfolio/">Read More</a>
+            </div>
+            <div ="project">
+                <h3>Ecommerce Website</h3>
+                <p>Hey this is my Ecommerce website which provide various catogories shoes . You can visit here. </p>
+                <a href="https://akashtharu2060.github.io/E-commerce-shoes/">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML <span class="skill-level">90%</span></li>
+                <li>CSS <span class="skill-level">85%</span></li>
+                <li>JavaScript <span class="skill-level">80%</span></li>
+                <li>Node.js <span class="skill-level">70%</span></li>
+                <li>Python <span class="skill-level">75%</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 My Portfolio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript files -->
+    <script src="fallingWords.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
